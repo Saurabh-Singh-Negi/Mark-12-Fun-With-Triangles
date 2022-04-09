@@ -9,6 +9,35 @@
 <body>
     <div class="container">
         <h1>Triangle Quiz</h1>
+
+        <form id="quiz-form">
+            <div class="quiz-container">
+                <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+                <label>
+                    <input type="radio" name="answer-one" />45°
+                </label>
+                <label>
+                    <input type="radio" name="answer-one" />60°
+                </label>
+                <label>    
+                    <input type="radio" name="answer-one" />90°
+                </label>               
+            </div>
+            <div class="quiz-container">
+                <p> If a triangle has an angle of 90 degrees, what is it called?</p>
+                <label>
+                    <input type="radio" name="answer-two" />Acute
+                </label>
+                <label>
+                    <input type="radio" name="answer-two" />Obtuse
+                </label>
+                <label>    
+                    <input type="radio" name="answer-two" />Right Angled
+                </label>               
+            </div>
+        </form>
+        <button id="submit-answers">Check Result</button>
+        <h2 id="output"></h2>
     </div>
     
 
