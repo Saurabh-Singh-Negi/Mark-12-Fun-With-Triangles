@@ -58,3 +58,21 @@ button {
     background-color: #DBDFFD;
     font-family: 'acme', sans-serif;
 }
+
+@media screen and (max-width:600px) {
+    
+    nav a {
+        display: block;
+    }
+
+    #container label {
+        font-size: 1rem;
+    }
+    
+    #container h1 {
+        font-size: 1.5rem;
+    }
+
+
+    
+}
