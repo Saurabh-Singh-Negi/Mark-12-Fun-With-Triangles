@@ -5,16 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculate Hypotensuse</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Acme&family=Blaka+Hollow&display=swap');
+    </style>
+    <link rel="stylesheet" href="hypotenuse.css">
 </head>
 <body>
-    
-    <div class="container">
+    <nav>
+        <a href="index.html">Is a Triangle?</a>
+        <a href="TriangleQuiz.html">Triangle Quiz</a>
+        <a href="TriangleArea.html">Area of Triangle</a>
+    </nav>
+    <div id="container">
         <h1>Calculate hypotenuse of a triangle</h1>
-        <label>Side one</label>
-        <input type="number" class="side-length"/>
-        <label>Side two</label>
-        <input type="number" class="side-length"/>
-
+        <label for="side1">Side one
+            <input type="number" id="side1" class="side-length"/>
+        </label>
+        <label for="side2">Side two
+            <input type="number" id="side2" class="side-length"/>
+        </label>
         <button id="calculate-button">Calculate Hypotenuse</button>
         <h2 id="output"></h2>
     </div>

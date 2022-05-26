@@ -18,7 +18,7 @@ nav a {
 
 
 #container {
-    background-color: #9BA3EB;
+    background-color: #DBDFFD;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,7 +31,11 @@ nav a {
     font-size: 2rem;
 }
 
-.angle-box {
+#container h1 {
+    font-size: 3rem;
+}
+
+.triangle-measure {
     height: 20px;
     min-width: 300px;
     font-family: sans-serif;
@@ -39,7 +43,7 @@ nav a {
     padding: 1rem;
     margin: 0.5rem;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1rem;;
 }
 
 button {

@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
 nav {
     background-color: #242F9B;
     padding: 2rem;
@@ -16,9 +18,12 @@ nav a {
     padding: 1rem;
 }
 
+.question {
+    font-size: 2rem;
+}
 
 #container {
-    background-color: #9BA3EB;
+    background-color: #DBDFFD;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,7 +36,11 @@ nav a {
     font-size: 2rem;
 }
 
-.angle-box {
+#container h1 {
+    font-size: 3rem;
+}
+
+.triangle-measure {
     height: 20px;
     min-width: 300px;
     font-family: sans-serif;
@@ -41,6 +50,7 @@ nav a {
     font-weight: bold;
     font-size: 1rem;
 }
+
 
 button {
     padding: 0.5rem;

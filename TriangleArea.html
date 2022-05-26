@@ -5,16 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Area of Triangle</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Acme&family=Blaka+Hollow&display=swap');
+    </style>
+    <link rel="stylesheet" href="TriangleArea.css">
 </head>
 <body>
-    <div class="container">
+
+    <nav>
+        <a href="index.html">Is a Triangle?</a>
+        <a href="TriangleQuiz.html">Triangle Quiz</a>
+        <a href="hypotenuse.html">Hypotenuse</a>
+    </nav>
+    <div id="container">
         <h1>Area of Triangle</h1>
 
-        <label for="triangle-base">Base</label>
-        <input type="number" id="triangle-base" />
+        <label for="triangle-base">Base   
+            <input type="number" id="triangle-base" class="triangle-measure" />
+        </label>
         
-        <label for="triangle-height">Base</label>
-        <input type="number" id="triangle-height" />
+        <label for="triangle-height">Height
+            <input type="number" id="triangle-height" class="triangle-measure"/>
+        </label>
 
         <button id="calculate-button">Calculate Area</button>
 

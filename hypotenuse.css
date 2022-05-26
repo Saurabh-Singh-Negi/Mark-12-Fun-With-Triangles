@@ -18,7 +18,7 @@ nav a {
 
 
 #container {
-    background-color: #9BA3EB;
+    background-color: #DBDFFD;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,7 +31,11 @@ nav a {
     font-size: 2rem;
 }
 
-.angle-box {
+#container h1 {
+    font-size: 3rem;
+}
+
+.side-length {
     height: 20px;
     min-width: 300px;
     font-family: sans-serif;
